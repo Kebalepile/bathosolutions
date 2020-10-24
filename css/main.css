@@ -2,8 +2,44 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color:whitesmoke;
 }
 
 body{
   background: #222;
+}
+
+nav{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width:inherit;
+  height: 5em;
+  border-bottom:1px solid white;
+}
+
+nav * {
+  margin-left:10px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+section {
+  border-bottom: 1px solid white;
+  height:86vh;
+  width: 100%;
+}
+
+#space{
+  height: 15%;
+}
+#summary{
+  height:85%;
+  width: inherit;
+  background:red;
 }
