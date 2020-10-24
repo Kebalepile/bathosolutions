@@ -19,7 +19,7 @@ html {
   color: var(--white);
 }
 body {
-  background-image: url("/img/p6.jpg");
+  background-image: url("/img/p6.png");
 }
 
 img {
@@ -53,7 +53,7 @@ section {
 }
 #home {
   display: inline-block;
-  background-image: url("/img/blackhands.jpg");
+  background-image: url("/img/blackhands.png");
   background-size: cover;
 }
 
