@@ -8,6 +8,9 @@
   --white: #ffffff;
   --skyblue: #2f93c1;
 }
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
