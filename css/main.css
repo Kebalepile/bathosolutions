@@ -1,45 +1,90 @@
+@font-face {
+  font-family: customFont;
+  src: url("/fonts/Righteous-Regular.ttf");
+}
+:root {
+  --swhite: #f5f5f5;
+  --darkblack: #292b2a;
+  --white: #ffffff;
+  --skyblue: #2f93c1;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color:whitesmoke;
+  font-family: customfont;
+  color: var(--white);
+}
+body {
+  background-image: url("/img/p6.jpg");
 }
 
-body{
-  background: #222;
+img {
+  width: 100px;
+  height: 100px;
 }
-
-nav{
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+nav {
+  position: fixed;
   top: 0;
   display: flex;
   align-items: center;
-  width:inherit;
+  width: inherit;
   height: 5em;
-  border-bottom:1px solid white;
+  font-size: 20px;
+  box-shadow: -5px 6px 5px -5px var(--swhite);
 }
 
 nav * {
-  margin-left:10px;
+  margin-left: 10px;
 }
 
-
-a{
+a {
   text-decoration: none;
+  text-shadow: 0px 1px 0px var(--white), 0px 6px 30px var(--white);
 }
 
 section {
-  border-bottom: 1px solid white;
-  height:86vh;
+  border-bottom: 1px solid var(--white);
+  height: 100vh;
   width: 100%;
 }
-
-#space{
-  height: 15%;
+#home {
+  display: inline-block;
+  background-image: url("/img/blackhands.jpg");
+  background-size: cover;
 }
-#summary{
-  height:85%;
-  width: inherit;
-  background:red;
+
+#summary {
+  margin-top: 35vh;
+  text-align: center;
+  text-shadow: 2px 2px 3px var(--darkblack);
+
+  font-size: 25px;
+}
+#summary * {
+  color: #008ed4;
+}
+
+.info {
+  background-color: var(--swhite);
+width:60%;
+  height: 400px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+#about > h2 {
+  margin-left: 15px;
+  text-shadow: 0px 1px 0px var(--white), 0px 4px 30px var(--white);
+}
+#contact > h2 {
+  margin-left: 15px;
+  text-shadow: 0px 1px 0px var(--white), 0px 6px 30px var(--white);
+}
+
+footer{
+  height:10vh;
+  width:100%;
+  padding-top:3%;
+  text-align: center;
 }
