@@ -69,13 +69,19 @@ section {
 }
 
 .info {
+
   background-color: var(--swhite);
-width:60%;
-  height: 400px;
+  width: 60%;
   margin: 20px auto;
   border-radius: 5px;
+  padding:0 15px;
+  
 }
 
+.info * {
+  color: var(--darkblack);
+  text-align: left;
+}
 #about > h2 {
   margin-left: 15px;
   text-shadow: 0px 1px 0px var(--white), 0px 4px 30px var(--white);
@@ -85,9 +91,14 @@ width:60%;
   text-shadow: 0px 1px 0px var(--white), 0px 6px 30px var(--white);
 }
 
-footer{
-  height:10vh;
-  width:100%;
-  padding-top:3%;
+footer {
+  height: 10vh;
+  width: 100%;
+  padding-top: 3%;
   text-align: center;
+}
+
+svg{
+  width:25px;
+  height:25px
 }
