@@ -1,2 +1,2 @@
 # bathosolutions
-bathosolution company website
+bathosolution company landing page
